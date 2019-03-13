@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+  padding-top: 15px;
+}
+
+#contact-form {
+  background-color: rgb(204, 180, 180);
+  padding: 25px;
+  margin-top: 15px;
+  border-top-left-radius: 25px;
+}
+
+/* Make the paragraph text wrap around the image */
+p img {
+  width: 250px;
+  height: auto;
+  float: left;
+  margin-right: 15px;
+}
